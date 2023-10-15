@@ -1,12 +1,12 @@
     /*Header*/
     header {
         width: 100%;
-        min-height: 400px;
+        min-height: 275px;
         padding-top: 3em;
     }
     #home header {
         background: no-repeat lightgray url(images/cliff_ocean.jpg);
-        background-size: 1500px;
+        background-size: 100% 400px;
     }
     #activities header {
         background: no-repeat lightgray url(images/runfly.jpeg);
@@ -379,5 +379,4 @@ body#activities p {
     background-color: lightgreen;
     color: white;
 }
-
 

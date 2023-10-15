@@ -1,26 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title></title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Great Cliffs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="contact" onload="disableButton(true)">
-<div id="container">
-    <header>
-        <div class="main-header">
-            <div class="logo">
-                <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
-            </div>
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cliffs.html">Cliffs</a></li>
-                    <li><a href="activities.html">Activities</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
-                  </ul>
-            </nav>
+
+<body id="contact">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: rgba(38, 41, 61, 0.7)!important;">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Great Cliffs logo" width="100" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cliffs.html">Cliffs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
+    <header></header>
     <main>
         <h1>Contacting Us</h1>
         <p>
@@ -78,8 +93,9 @@
             </div>
         
             <div class="button">
-                <input type="submit" value="Inquire" id="submit">
-            </div> 
+                <input type="submit" class="btn btn-primary" value="Submit">
+                <i class="fas fa-arrow-right"></i>
+            </div>
         </fieldset>  
         </form>
     </main>
@@ -97,9 +113,9 @@
         <div id="nondisclaimer">
             <div class="copy">&copy;Copyright 2020 :: GreatCliffs.com</div>
             <div class="social">
-                <h3>Facebook Image</h3>
-                <h3>Instagram Image</h3>
-                <h3>Twitter Image</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
             </div>
         </div>
         <div id="disclaimer">
@@ -109,5 +125,9 @@
 </div>
 <script src="js/site_scripts.js"></script>
 <script src="js/randomcodes.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
